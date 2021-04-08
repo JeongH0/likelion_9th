@@ -1,7 +1,7 @@
 from random import randint
-LOTTO_PRICE = 1000          #로또 한장의 가격
-WINNING_PRICE = [5000000, 100000, 20000, 5000]      #1등~4등까지의 당첨금
-WINNING_CONDITION = [6, 5, 4, 3]        #당첨 조건
+LOTTO_PRICE = 1000          # 로또 한장의 가격
+WINNING_PRICE = [5000000, 100000, 20000, 5000]      # 1등~4등까지의 당첨금
+WINNING_CONDITION = [6, 5, 4, 3]        # 당첨 조건
 
 
 def money_change_lotto():       # 문자열을 입력받거나, 한장의 가격보다 낮은 금액을 입력 받을 시, 다시 입력
